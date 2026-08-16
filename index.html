@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Muscle Feast Gym & Spa in Srinagar. Modern equipment, professional trainers and a motivating fitness atmosphere.">
+  <title>Muscle Feast Gym & Spa | Srinagar</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header class="navbar">
+    <a class="logo" href="#home"><span>MF</span> MUSCLE FEAST</a>
+    <nav id="nav">
+      <a href="#home">Home</a>
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#reviews">Reviews</a>
+      <a href="#contact">Contact</a>
+    </nav>
+    <a class="nav-cta" href="tel:+917889843225">Call Now</a>
+    <button class="menu" onclick="toggleMenu()" aria-label="Open menu">☰</button>
+  </header>
+
+  <main>
+    <section id="home" class="hero">
+      <div class="hero-overlay"></div>
+      <div class="hero-content reveal">
+        <p class="eyebrow">GYM • FITNESS • SPA</p>
+        <h1>BUILD YOUR<br><em>STRONGER</em> SELF.</h1>
+        <p class="hero-text">Train with purpose at Muscle Feast Gym & Spa — a motivating fitness destination in Srinagar with quality equipment and a professional atmosphere.</p>
+        <div class="buttons">
+          <a class="btn primary" href="#contact">JOIN THE GYM</a>
+          <a class="btn ghost" href="#services">EXPLORE SERVICES</a>
+        </div>
+        <div class="rating"><strong>4.3 ★</strong><span>109+ reviews</span></div>
+      </div>
+    </section>
+
+    <section class="stats">
+      <div><strong>4.3★</strong><span>Google Rating</span></div>
+      <div><strong>109+</strong><span>Reviews</span></div>
+      <div><strong>6 AM</strong><span>Opens Monday</span></div>
+      <div><strong>MF</strong><span>Fitness & Spa</span></div>
+    </section>
+
+    <section id="about" class="section about">
+      <div class="section-tag">01 / ABOUT US</div>
+      <div class="two-col">
+        <div>
+          <h2>More than a gym.<br><span>A place to level up.</span></h2>
+        </div>
+        <div>
+          <p>Muscle Feast Gym & Spa is located at Mill Stop, opposite the Craft Development Institute in Baghe Ali Mardan Khan, Srinagar.</p>
+          <p>With updated equipment, a welcoming atmosphere and helpful staff, the gym is built for people who want to train consistently and make progress.</p>
+          <div class="quote">“Great place, wonderful atmosphere, updated equipments and well educated trainer.”</div>
+        </div>
+      </div>
+    </section>
+
+    <section id="services" class="section dark">
+      <div class="section-tag">02 / WHAT WE OFFER</div>
+      <h2>TRAIN. RECOVER.<br><span>REPEAT.</span></h2>
+      <div class="cards">
+        <article class="card">
+          <div class="number">01</div>
+          <h3>GYM & STRENGTH</h3>
+          <p>Train across a range of strength and fitness equipment in a focused environment.</p>
+        </article>
+        <article class="card">
+          <div class="number">02</div>
+          <h3>PERSONAL TRAINING</h3>
+          <p>Get guidance from trainers and work toward your individual fitness goals.</p>
+        </article>
+        <article class="card">
+          <div class="number">03</div>
+          <h3>SPA & RECOVERY</h3>
+          <p>Round out your fitness routine with a dedicated space for relaxation and recovery.</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="reviews" class="section reviews">
+      <div class="section-tag">03 / MEMBER FEEDBACK</div>
+      <div class="review-head">
+        <h2>WHAT PEOPLE<br><span>ARE SAYING.</span></h2>
+        <div class="big-rating">4.3<span>/5</span><small>109 reviews</small></div>
+      </div>
+      <div class="review-grid">
+        <blockquote><div>★★★★★</div><p>“Very good experience and staff behaviour is very well.”</p><cite>— Member review</cite></blockquote>
+        <blockquote><div>★★★★★</div><p>“Top quality gym equipments. Staff is best.”</p><cite>— Member review</cite></blockquote>
+        <blockquote><div>★★★★★</div><p>“Great place, wonderful atmosphere, updated equipments and well educated trainer.”</p><cite>— Member review</cite></blockquote>
+      </div>
+    </section>
+
+    <section id="contact" class="section contact">
+      <div class="contact-box">
+        <div>
+          <div class="section-tag">04 / FIND US</div>
+          <h2>READY TO<br><span>START?</span></h2>
+          <p>Visit Muscle Feast Gym & Spa in Baghe Ali Mardan Khan, Srinagar.</p>
+        </div>
+        <div class="contact-details">
+          <div><small>ADDRESS</small><p>Mill Stop, opposite Craft Development Institute,<br>Baghe Ali Mardan Khan, Srinagar, J&K 190011</p></div>
+          <div><small>PHONE</small><p><a href="tel:+917889843225">078898 43225</a></p></div>
+          <div class="contact-buttons">
+            <a class="btn primary" href="tel:+917889843225">CALL THE GYM</a>
+            <a class="btn ghost-dark" target="_blank" rel="noopener" href="https://www.google.com/maps/search/?api=1&query=Muscle+Feast+Gym+and+Spa+Srinagar">GET DIRECTIONS</a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="logo"><span>MF</span> MUSCLE FEAST</div>
+    <p>© <span id="year"></span> Muscle Feast Gym & Spa. All rights reserved.</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
